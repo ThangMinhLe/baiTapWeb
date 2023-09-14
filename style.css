@@ -1,0 +1,76 @@
+body{
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #ccc;
+
+}
+
+table, tr, td {
+    border: 1px solid #ccc;
+}
+
+.menu .subMenu tr:hover{
+    background-color:#ddd;
+    cursor:pointer;
+}
+
+.logo {
+    display:flex;
+    justify-content: space-between;
+    font-size: 16px;
+    height: 20px;
+
+}
+
+.logo .infCompany {
+    width: 20%;
+}
+
+.logo .nameCompany {
+    width: 60%;
+    text-align: left;
+}
+
+.logo .logoCompany {
+    width: 20%;
+}
+
+.header {
+    background-color: goldenrod;
+    height: 100px;
+    justify-content: center;
+}
+
+hr.testHR {
+    border: 5px solid #fff;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.nav {
+    background-color: antiquewhite;
+    height: 50px;
+}
+
+.content {
+    height: 200px;
+}
+
+.content .menu {
+    width: 20%;
+}
+
+.content .menu .subMenu{
+    
+    
+}
+
+.footer {
+    background-color:bisque;
+    height: 100px;
+    text-align: left;
+}
+

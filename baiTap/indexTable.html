@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+    <style>
+        table, tr, td {
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        .header,.mon,.five {
+            text-align: left;
+        }
+
+        /* .mon {
+            text-align: left !important;
+        } */
+
+
+    </style>
+</head>
+<body>
+    <table>
+        <!-- this is header -->
+        <tr>
+            <td class="header" colspan="7">KẾ HOẠCH ĐÀO TẠO</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2" >STT</td>
+            <td rowspan="2">TEN MON</td>
+            <td class="soTiet" colspan="2" > 
+                SO TIET
+               
+            </td>
+            <td rowspan="2">HK1</td>
+            <td rowspan="2">HK2</td>
+            <td rowspan="2">GHI CHU</td>
+
+        </tr>
+           
+        <tr>
+            <td>Ly Thuyet</td>
+            <td>Thuc Hanh </td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td class="mon">CHINH TRI</td>
+            <td>30</td>
+            <td>30</td>
+            <td>x</td>
+            <td></td>
+            <td rowspan="2">2 tuần đầu HK</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td class="mon">THE DUC</td>
+            <td>10</td>
+            <td>30</td>
+            <td></td>
+            <td>x</td>
+            <!-- <td></td> -->
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td class="mon">ANH VAN</td>
+            <td>90</td>
+            <td>0</td>
+            <td>x</td>
+            <td></td>
+            <td rowspan="3">15 tuần</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td class="mon">TIN HOC</td>
+            <td>30</td>
+            <td>60</td>
+            <td>x</td>
+            <td></td>
+            <!-- <td></td> -->
+        </tr>
+
+        <tr>
+            <td class="five">5</td>
+            <td class="mon">TOAN</td>
+            <td>60</td>
+            <td>30</td>
+            <td></td>
+            <td>x</td>
+            <!-- <td></td> -->
+        </tr>
+       
+    </table>
+</body>
+</html>
