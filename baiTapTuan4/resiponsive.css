@@ -1,0 +1,29 @@
+@media (max-width: 930px) and (min-width: 500px) {
+
+    .contends {
+        /* height: 400px; */
+        text-align: center;
+        line-height: 100px;
+        width: 43%;
+        /* position: relative; */
+        display: inline-block;
+        /* margin: 10px 20px; */
+    
+     
+    }
+}
+
+@media (max-width: 720px)  {
+
+    .contends {
+        /* height: 400px; */
+        text-align: center;
+        line-height: 100px;
+        width: 90%;
+        /* position: relative; */
+        display: inline-block;
+        /* margin: 10px 20px; */
+    
+     
+    }
+}

@@ -1,0 +1,255 @@
+ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+* {
+    box-sizing: border-box;
+}
+ 
+
+#headergt {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    /* padding-top: 50px;
+    padding-left: 200px; */
+    background-color: rgb(122, 122, 117);
+    /*margin: auto auto;*/
+    border-radius: 10px;
+    position: relative;
+    border: 1px solid #222222;
+    /* border-width: 5px; */
+}
+
+.anh {
+    position: absolute;
+    top: calc(25% );
+    left: calc(10% );
+    max-width: 100%;
+    height: auto;
+}
+
+.headerContends {
+    position: absolute;
+    left: calc(50% - 46px/2);
+    bottom: calc(50% - 18px/2);
+}
+
+.container {
+   margin-bottom: 5px;
+    
+}
+
+.menu {
+    display: inline-block;
+    float: left;
+    width: 20%;
+    background-color: aqua;
+    
+}
+
+.title  {
+    height: 100px;
+    width: 100%;
+    background-color: beige;
+    /* text-align: center;
+    line-height: 100px; */
+
+}
+
+.home   {
+    display: inline-block;
+    margin: 20px ;
+    padding: 20px 30px;
+    border: 2px solid #2e1515;
+    border-radius: 20px;
+}
+
+.product{
+    display: inline-block;
+    margin: 20px ;
+    padding: 20px 30px;
+    border-radius: 20px;
+    border: 2px solid #2e1515;
+}
+
+.support {
+    display: inline-block;
+    margin: 20px ;
+    padding: 20px 30px;
+    border-radius: 20px;
+    border: 2px solid #2e1515;
+}
+
+.help {
+    display: inline-block;    
+    margin: 20px ;
+    padding: 20px 30px;
+    border: 2px solid #2e1515;
+    border-radius: 20px;
+
+}
+
+.menu {
+    display: block;
+}
+
+.menu1, .menu2{
+    
+    width: 70%;
+    /* text-align: center; */
+    padding: 0px 30px;
+    margin:10px;
+    border: 1px solid #2e1515;
+    border-radius: 10px;
+}
+
+.menu1_1, .menu1_2, .menu1_3, .menu1_4, 
+.menu2_1, .menu2_2, .menu2_3, .menu2_4 {
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin: 5px 0px;
+    padding-left: 10px ;
+}
+
+.border {
+    /* height: 10px; */
+    background-color: blueviolet;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.demoSubMenu{
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    margin: 10px;
+}
+
+/* responsive */
+ @media screen and (max-width: 588px){
+    .border {
+        flex-direction: column;
+        width: 100%;
+    }
+ }
+
+ @media screen and (min-width: 0px) and (max-width: 750px) {
+    .menuNoiDung{
+        display: none;
+    }
+
+    #tuyChon {
+        flex-direction: column;
+        width: 100%;
+    }
+ }
+.content {
+    display: inline-block;
+    float:none;
+    width: 60%;
+    background-color: burlywood;
+    text-align: center;
+    line-height: 100px;
+      
+
+    
+
+}
+
+.menuNoiDung{
+    
+}
+
+/* .contents.content-in-content {
+    width: 10px;
+    height: 100px;
+} */
+
+.nav {
+    display: inline-block;
+    width: 20%;
+    float: right;
+    background-color: blueviolet;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* height: 120px; */
+    clear: both;
+    color: #fff;
+    background-color: #222222;
+    padding: 50px 20px;
+    position:absolute;
+    
+
+
+}
+
+.menuFooter {
+    margin: 20px 0px;
+    
+}
+
+/* .menuFooter::before {
+    margin-left:40px;
+} */
+
+.menuFooterSub{
+    width: 50%;
+}
+
+.contentFooter{
+    width: 50%;
+    position: relative;
+}
+
+.menu2_11 {
+    display: block;
+    width: 15%;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.menuNoiDung {
+    margin: 10px 5xp;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+}
+
+#tuyChon {
+    /* background-color:darkgoldenrod;
+    display: flex; 
+    justify-content: space-between; */
+
+    background-color: cadetblue;   
+    display: flex;
+    justify-content: space-around;
+    /* height: 100px; */
+    /* line-height: 80px; */
+    
+}
+
+.menuSub{
+    padding: 0px 100px;
+    background-color: burlywood;
+    margin-top: 10px;
+    height: 80%;
+    line-height: 80px ;
+    border-radius: 10px;
+}
+
+.contentss {
+    height: 500px;
+    background-color: antiquewhite;
+}
