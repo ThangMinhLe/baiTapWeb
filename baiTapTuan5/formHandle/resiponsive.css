@@ -1,0 +1,50 @@
+@media only screen and (min-width: 500px) and (max-width: 1000px){
+    .contain {
+        display: block;
+        width: 100%;
+        border-top: 1px solid #000;
+    }
+
+
+    .col {
+        width: 100%;
+        border: none;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .rowForContent {
+        margin: 5px 0px;
+
+    }
+
+    .col1 .rowForContent:first-child {
+        margin-top: 20px;
+    }
+
+    .rowForContent:last-child {
+        margin-bottom: 0px;
+    }
+
+    .col2 .rowForContent:last-child {
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .containner {
+        display: none;
+    }
+
+    .an {
+        display: block;
+        position: absolute;
+        justify-content: center;
+        text-align: center;
+        margin: 0px 50px;
+        top: 100px;
+
+
+    }
+}
+

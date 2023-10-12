@@ -1,0 +1,132 @@
+.modle {
+    background-color: greenyellow;
+    width: 100%;
+    height: 1000px;
+
+}
+
+.an {
+    display: none;
+}
+
+.containner {
+    width: 50%;
+    margin: auto ;  
+    border: 1px solid black;
+    width: 50%;
+    height: auto;
+    background-color: bisque;
+    margin: auto;
+    position: absolute;
+    top: 100px;
+    left: 25%;    
+}
+
+
+
+/* This is tittle */
+
+
+
+.col {
+    /* display: none; */
+}
+.title {
+    display: flex;
+    background-color: cadetblue ;
+}
+
+.tittleSiginUp {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.close:hover {
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+
+.close {
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+/* This is content */
+
+
+
+.rowForContent {
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.col1 .rowForContent::after {
+    margin-bottom: 20px;
+}
+
+.inputData {
+    width: 80%;
+}
+
+
+
+
+.contain {
+    display: flex;
+}
+
+.col {
+    width: 50%;
+    /* height: 50px; */
+}
+.col{
+    border: 1px solid #000;
+    /* height: 50px; */
+}
+
+.titleForForm {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.rowForContent:last-child {
+    margin-bottom: 35px ;
+}
+
+/* .titleForForm */
+
+
+
+/* Dieu huong trang Sign Up */
+.handle {
+    display: flex;
+    background-color: black;
+}
+
+.handleSignUp {
+    width: 25%;
+    margin: 10px 10px;
+    text-align: center;
+    /* justify-content: center; */
+    height: 40px;
+    border: 1px;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+.handleSignUp:hover {
+    background-color: coral;
+    cursor: pointer;
+}
+
+
